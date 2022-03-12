@@ -1,2 +1,2 @@
-web: gunicorn netconf_backend.wsgi
+web: gunicorn django_auth_template.wsgi
 release: python manage.py migrate
